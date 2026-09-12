@@ -1,0 +1,55 @@
+# Editor settings and machine-specific paths
+.vscode/
+.idea/
+*.code-workspace
+.mxproject
+
+# Keil user options, debugger state and session files
+*.uvopt
+*.uvoptx
+*.uvgui.*
+*.uvguix.*
+/smart_system/MDK-ARM/DebugConfig/
+
+# Project build output (including logs with local tool/license information)
+/smart_system/MDK-ARM/smart_fisher/
+Objects/
+Listings/
+Debug/
+Release/
+/build/
+/dist/
+*.o
+*.obj
+*.d
+*.dep
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.build_log.htm
+*.log
+
+# Keep vendor libraries (*.a, *.lib), project files (*.uvprojx),
+# startup sources (*.s), custom linker scripts (*.sct), PCB and Gerber files.
+
+# Backups and temporary files
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+__pycache__/
+*.pyc
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

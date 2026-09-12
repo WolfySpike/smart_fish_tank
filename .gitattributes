@@ -1,0 +1,24 @@
+# Detect text while preserving binary hardware assets and vendor libraries.
+* text=auto
+
+*.c text
+*.h text
+*.s text
+*.S text
+*.md text eol=lf
+*.uvprojx text eol=crlf
+*.ioc text eol=crlf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+LICENSE text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.eprj binary
+*.epro binary
+*.a binary
+*.lib binary
